@@ -1,0 +1,10 @@
+# 忽略解压后的数据集目录，通常包含大量文件
+dataset/
+
+# 忽略数据集压缩包本身
+dataset.zip
+
+# 忽略其他大型模型文件和缓存（可选，但推荐）
+NPR.pth
+model_epoch_last_3090.pth
+__pycache__/
